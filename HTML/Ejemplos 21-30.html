@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Empleados de un X empresa</caption>
+        <tr>
+          <th>Paises</th><th>Cantidad de habitantes</th>
+        </tr>
+        <tr>
+          <td>China</td><td>1300 millones</td>
+        </tr>
+        <tr>
+          <td>India</td><td>1080 millones</td>
+        </tr>
+        <tr>
+          <td>Estados Unidos</td><td>295 millones</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="1">
+        <caption>Periodicos</caption>
+        <tr>
+          <td rowspan="2">México</td><td>Milenio</td><td><a href="https://www.milenio.com">www.milenio.com</a></td>
+        </tr>
+        <tr>
+          <td>El Universal</td><td><a href="https://www.eluniversal.com.mx">www.eluniversal.com.mx</a></td>
+        </tr>
+        <tr>
+          <td rowspan="2">España</td><td>El Mundo</td><td><a href="https://www.elmundo.es">www.elmundo.es</a></td>
+        </tr>
+        <tr>
+          <td>La Vanguardia</td><td><a href="https://www.lavanguardia.com">www.lavanguardia.com</a></td>
+        </tr>
+      </table>
+      <hr>
+
+      <!-- Corresponden a datos del año 2014. Modificar a principios de 2015
+      <form action="registrardatos.php" method="post">
+        Ingrese su correo: 
+        <input type="text" name="email" size="20">
+        <br>
+        Ingrese su clave: 
+        <input type="password" name="clave" size="12">
+        <br>
+        Repita su clave: 
+        <input type="password" name="repClave" size="12">
+        <br>
+        <input type="submit" value="registrar">
+      </form>
+ 
+  <form action="registrardatos.php" method="POST">
+    ingresa el nombre de usuario:
+    <input type="text" name="nombre" size="20">
+    <br>
+    ingresa tu Correo: 
+    <input type="text" name="email" size="25">
+    <br>
+    ingresa tu DNI: 
+    <input type="text" name="dni">
+    <br>
+    Ingresa tu curriculum en el Área:
+    <br>
+    <textarea name="curri" cols="20" rows="5"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+   -->  
+   <form action="registrardatos.php" method="post">
+    Ingrese su nombre:
+    <input type="text" name="nombre" size="30"><br>
+    Ingresa su correo:
+    <input type="text" name="email" size="30"><br>
+    Seleccione la pelicula:
+    <br>
+    <input type="checkbox" name="amarteDuele">Amarte duele<br>
+    <input type="checkbox" name="rapidoFurioso">Rapido y Furioso<br>
+    <input type="checkbox" name="ted">Ted<br>
+    <input type="submit" value="Enviar">
+   </form>    
+</body>
+</html>

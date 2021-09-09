@@ -1,0 +1,18 @@
+/*
+body {
+    background-color:#eeeeee;
+  }
+  .resaltado{
+    color:#000000;
+    background-color:#ffff00;
+    font-style:italic;
+  }
+  */
+  .subrayado {
+    color:#00aa00;
+    text-decoration:underline;
+  }
+  .tachado {
+    color:#00aa00;
+    text-decoration:line-through;
+  }

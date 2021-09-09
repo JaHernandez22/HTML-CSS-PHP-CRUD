@@ -1,0 +1,17 @@
+.codigofuente {
+    font-size:12px;
+    background-color:#ffffcc;
+    border-width:1px;
+    border-style:dotted;
+    border-color:#ffaa00;
+  
+    padding:20px;
+  }
+
+  .titulo {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:#aaaaaa;
+  }

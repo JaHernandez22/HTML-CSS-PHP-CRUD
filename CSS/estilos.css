@@ -1,0 +1,72 @@
+ body {
+    background:white;
+    margin:50px;
+  }
+  /*#
+Este bloque nos permite crear un recuadro el cual tiene bordes redondos en las 4 esquinas
+
+  recuadro1{
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    padding:10px;
+    text-align: justify;
+  }
+  
+  
+  #recuadro2{
+    border-radius: 20px 40px 40px 20px;   
+    background-color:#aa0;
+    width:200px;
+    padding:10px;
+    margin-top:50px;
+  }
+ 
+  Esta seguda opcion nos permite realizar una redondes en los recuadros, pero en la cual nosotros
+  podemos definir que bordes queremos llevar acabo todo esto
+
+  #recuadro1{
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    padding:10px;
+  }
+  
+  
+  #recuadro2{
+    border-top-right-radius: 40px;  
+    background-color:#aa0;
+    width:200px;
+    padding:10px;
+    margin-top:50px;
+  }
+
+
+Nos permite crear una sombre generada por nuestros recuadros.
+    #recuadro1{
+    box-shadow: 30px 10px 20px #aaa; 
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    padding:10px;
+    }
+
+    #recuadro2{
+    box-shadow: -10px -10px 20px #aaa; 
+    border-radius: 20px;  
+    background-color:#aa0;
+    width:200px;
+    padding:10px;
+    margin-top:50px;
+    } 
+    */
+
+    #recuadro1{
+        box-shadow: -30px -30px 20px #f00,
+                     30px  30px 20px #0f0;
+        border-radius: 20px;  
+        background-color:#ddd;
+        width:200px;
+        padding:10px;
+      }
